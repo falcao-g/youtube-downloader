@@ -1,8 +1,8 @@
 from pytube import YouTube
 
-DOWNLOAD_FOLDER = "/Downloads"
+DOWNLOAD_FOLDER = "PATH_TO_DOWNLOAD_FOLDER"
 
-video_url = "https://www.youtube.com/watch?v=EEfw9vgHRMI"
+video_url = "VIDEO_URL"
 
 video_obj = YouTube(video_url)
 
